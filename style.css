@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  background: #333;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+#home {
+  background: #f4f4f4;
+}
+
+#about {
+  background: #ddd;
+}
+
+#experience {
+  background: #ccc;
+}
+
+#projects {
+  background: #bbb;
+}
+
+#contact {
+  background: #aaa;
+}
